@@ -1,4 +1,4 @@
-public class ofoh {
+public class Ofoh {
 
     public static void main(String[] args) {
 
@@ -10,12 +10,11 @@ public class ofoh {
         if (amount > 1000) {
             bonus = amount / 100;
             sum = balance + amount + bonus;
-        }
-        else {
+        } else {
             sum = balance + amount;
         }
-        System.out.println( "Ваш Бонус: " + bonus);
-        System.out.println( "Ваш Баланс: " + sum);
+        System.out.println("Ваш Бонус: " + bonus);
+        System.out.println("Ваш Баланс: " + sum);
     }
 
 }
